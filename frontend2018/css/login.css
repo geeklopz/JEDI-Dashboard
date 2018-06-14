@@ -1,0 +1,95 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* login new */
+      
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+      
+#login {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+      
+/* form-signin */
+
+.form-control {
+  position: relative;
+  font-size: 13px;
+  height: auto;
+  padding: 10px;
+  border:  0px;
+  border-radius: 0px;
+  @include box-sizing(border-box);
+  &:focus {
+      z-index: 2;
+  }
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #4b6cb7 0%, #182848 100%);
+}
+
+.form-signin-heading {
+  font-family: 'Cookie', cursive;
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+}
+
+
+.form-signin-heading,
+.checkbox {
+    margin-bottom: 30px;
+}
+
+.checkbox {
+    font-weight: normal;
+    margin-left: 20px;
+    color: #fff !important;
+}
+
+/* inputs */
+input[type="text"] {
+    margin-bottom: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 0px;
+}
+
+input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn.btn-block.btn-signin {
+ 	  /*background-color: rgb(104, 145, 162);*/
+ 	  background-color: #2980b9;
+    padding: 0px;
+
+    font-size: 17px;
+    height: 40px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    color: #fff;
+}
+.btn.btn-block.btn-signin:hover,
+.btn.btn-block.btn-signin:active,
+.btnbtn-block.btn-signin:focus {
+    /*background-color: rgb(12, 97, 33); */
+    background-color: #3498db;
+}
+
