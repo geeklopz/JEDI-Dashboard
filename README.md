@@ -2,7 +2,7 @@
 
 ## Introdução
 
-> Dashboard de acompanhamento com informações de usuários (Gráfico em barras de acessos diários, logs de usuários individuais)
+> Dashboard de acompanhamento com informações de usuários (Gráfico em barras com infos dos acessos diários, logs de usuários individuais)
 
 ### Installation
 
